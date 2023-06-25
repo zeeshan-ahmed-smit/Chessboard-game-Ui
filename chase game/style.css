@@ -1,0 +1,104 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: radial-gradient( #ffdd99 50%,#51412d)
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    font-size: 60px;
+    margin-top: -100px;
+    /* margin-left: -200px; */
+}
+.board {
+    padding: 60px;
+    padding-bottom: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.img {
+    /* background: rgb(0, 0, 0); */
+    /* padding: 0px; */
+    /* border: 10px solid black; */
+    /* margin-left: 330px; */
+    width: 500px;
+    margin-top: -110px;
+    /* box-shadow: 30px 30px 5px black; */
+    border: 2px solid white;
+    position: absolute;
+    /* top: 250px; */
+    /* left: 50px; */
+}
+.pieces{
+    width: 424px;
+    /* height: 425px; */
+    position: relative;
+    /* left: 9px; */
+    top: -70px;
+}
+.pawn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.rooks{
+    display: flex;
+    justify-content:space-between ;
+    margin-top:-105px ;
+}
+.bishop{
+    width: 198px;
+    margin-left: 116px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+}
+.knight{
+    width: 306px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -57px;
+
+}
+.kqw{
+    width: 93px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -72px;
+}
+.bpawn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 260px;
+}
+.brook{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 410px;
+    margin-left: 8px;
+}
+.bknight{ width: 306px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -65px;
+}
+.bbishop{
+    width: 198px;
+    margin-left: 116px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -55px;
+}
+.kqb{
+    width: 93px;
+    margin-left: 165px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+}
